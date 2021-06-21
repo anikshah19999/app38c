@@ -1,0 +1,405 @@
+@media all and ( max-width:1400px ) {
+    .mid-content {
+        width: 1300px;
+        margin: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+}
+@media all and ( max-width:1200px ) {
+    .title h1 {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    .p-head p {
+        font-size: 18px;
+    }
+
+}
+@media all and ( max-width:1024px ) {
+    .header-logo h4 {
+        font-size: 18px;
+        position: relative;
+        top: 15px;
+        left: 12px;
+    }
+    .header-menu ul li a {
+        font-size: 15px;
+        padding: 0px 10px;
+    }
+    .video-content h1 {
+        font-size: 30px;
+        margin-bottom: 18px;
+    }
+    .video-content p {
+        font-size: 16px;
+    }
+}
+
+/* this is stye css */
+.header-menu span {
+    display: none;
+}
+.header-menu .mobile-manu-check{
+    display: none;
+}
+
+@media all and ( max-width:992px ) {
+    .slider-section {
+        padding: 180px 0px;
+    }
+    /* .header-logo h4 {
+        font-size: 18px;
+        position: absolute;
+        right: -210px;
+        top: 20px;
+    }
+    .header-logo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .header-logo img {
+        float: none;
+    }
+  */
+  .header-logo {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 25px;
+  }
+      
+    .header-logo img {
+        float: none;
+        width: 60px;
+        height: auto;
+    }
+      
+    .header-logo h4 {
+        font-size: 1rem;
+        position: relative;
+        top: 15px;
+        left: 8px;
+        display: inline;
+        position: relative;
+        top: -20px;
+    }
+
+    .header-menu {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .header-menu span {
+        font-size: 40px;
+        color: #6278df;
+        display: block;
+    }
+    .btn {
+        position: absolute;
+        right: 20px;
+        top:80px;
+    }
+    .header-section {
+        position: relative;
+
+    }
+    .serives-box {
+        width: 48%;
+    }
+    .title h1 {
+        font-size: 30px;
+    }
+    .title p {
+        font-size: 16px;
+    }
+    .p-list ul li {
+        margin: 20px 0px;
+        color: #767676;
+        font-size: 16px;
+    }
+    .p-list {
+        padding: 20px;
+    }
+    .p-head p {
+        font-size: 17px;
+    }
+    .btn-btn {
+        font-size: 16px;
+        padding: 12px 20px;
+        
+    }
+    .p-head h1 {
+        font-size: 40px;
+        margin: 30px 0px;
+    }
+    .p-head {
+        padding: 20px;
+        border-bottom: 1px solid #ddd;
+    }
+    .test-box p {
+        font-size: 16px;
+    }
+    .blog-box img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .blog-text {
+        padding-left: 30px;
+        box-sizing: border-box;
+    }
+    .blog-box-2 img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .header-menu ul {
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+    
+    .header-menu .mobile-manu-check:checked ~ ul{
+        opacity: 1;
+        visibility:visible;
+        height:100%;
+        margin-top: 20px;
+    }
+    .header-menu ul li {
+        display: block;
+   
+    }
+    .header-menu ul li ul li{
+        display: block;
+        background: #fafafa !important;
+    }
+    .header-menu ul li ul {
+        position: absolute;
+        left: 120px;
+        top: -90px;
+        width: 200px;
+        z-index: 999;
+    }
+
+    .header-menu ul li a {
+        line-height: 30px;
+    }
+    .mobile-manu-check {
+        width: 30px;
+        height: 30px;
+        opacity: 0;
+        cursor: pon;
+        cursor: pointer;
+    }
+    .header-menu span {
+        font-size: 40px;
+        color: #6278df;
+        display: block;
+        position: absolute;
+        top: 85px;
+        left: 18px;
+        pointer-events: none;
+    }
+    .header-menu .mobile-manu-check{
+        display: block;
+    }
+}
+@media all and ( max-width:870px ) {
+    .video-content p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .video-content h1 {
+        font-size: 24px;
+        margin-bottom: 18px;
+    }
+    .priching-box {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .team-box {
+        width: 48%;
+        margin-right: 2%;
+        margin-bottom: 20px;
+    }
+
+    .blog-box {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .blog-box img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .blog-text {
+        padding: 30px;
+    }
+    .blog-box-2 {
+        width: 100%;
+    }
+    .blog-box-2 img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .blog-text {
+        padding-left: 30px;
+    }
+    .b-head h1 {
+        font-size: 20px;
+        width: 100%;
+    }
+    .b-para {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .blog-text p {
+        font-size: 16px;
+    }
+    .textimonial-items {
+        width: 100%;
+        margin-right: 2%;
+    }
+    .test-box-photo {
+        width: 163px;
+        margin: 33px auto;
+    }
+}
+
+@media all and ( max-width:780px ) {
+
+    /* .header-logo h4 {
+        font-size: 15px;
+        position: absolute;
+        right: -200px;
+        top: 20px;
+    } */
+
+    .slider-section {
+        padding: 120px 0px;
+
+    }
+    .slider-content h1 {
+        font-size: 40px;
+        margin: 26px 0px;
+    }
+    .slider-content p {
+        font-size: 18px;
+    }
+
+    .video {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .video-content {
+        width: 100%;
+    }
+
+    .title h1 {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .serives-box {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .s-content p {
+        font-size: .8rem;
+    }
+    .defult-btn {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .maps {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .maps-contact-form {
+        width: 100%;
+    }
+}
+
+
+@media all and ( max-width:576px ) {
+    .btn-btn {
+        font-size: 16px;
+        padding: 12px 18px;
+
+    }
+    .title h1 {
+        font-size: 22px;
+    }
+    .title p {
+        font-size: 16px;
+    }
+    .s-content h4 {
+        font-size: 17px;
+        margin-bottom:16px;
+    }
+    .team-box {
+        width: 100%;
+        margin-right: 2%;
+        margin-bottom: 20px;
+    }
+    .title h1 {
+        font-size:19px;
+    }
+    .title p {
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+    .video-content h1 {
+        font-size: 20px;
+        margin-bottom: 18px;
+    }
+}
+
+@media all and ( max-width:440px ) {
+    .slider-content h1 {
+        font-size: 30px;
+    }
+    .slider-content p {
+        font-size: 16px;
+    }
+    .btn-btn {
+        font-size: 14px;
+        padding: 10px 18px;
+        margin-bottom: 15px;
+    }
+    .title h1 {
+        font-size:1rem;
+    }
+    .title p {
+        font-size: 10px;
+    }
+    .submit {
+        width: 100%;
+        padding: 13px;
+    }
+    .video-content h1 {
+        font-size: 20px;
+        margin-bottom: 18px;
+    }
+    .title h1 {
+        font-size: 16px;
+    }
+    .defult-btn {
+        padding: 13px 15px;
+    }
+    .b-head {
+        width: 100%;
+    }
+    .blog-text p {
+        font-size: 16px;
+    }
+    .slider-content h1 {
+        font-size: 25px;
+    }
+    .blog-text {
+        padding: 10px;
+    }
+    
+}
